@@ -1,0 +1,112 @@
+* {box-sizing: border-box;}
+.column {
+background-color:black;
+  position:relative;
+  width: 300px;
+  height: 200px;
+  border: 8px solid white;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+   box-sizing: border-box;
+}
+.colum2{
+background-color:black;
+ position:relative;
+  width: 300px;
+  height: 300px;
+  border: 20px solid white;
+  float: left;
+  width: 50%;
+  padding: 10px;
+   box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+        background-color: #3b403f;
+        color: white;
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+.homeIcon{
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+.link
+{
+  font-size:20px;
+}
+.contact
+{
+  font-size:28px;
+  text-align:center;
+}
+p{
+ font-family: Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+p1{
+ font-family: Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+p2{
+font-family: Arial, Helvetica, sans-serif;
+font-size:20px;
+}
+p3{font-family: Arial, Helvetica, sans-serif;
+font-size:20px;}
+p4{font-family: Arial, Helvetica, sans-serif;
+font-size:20px;}
+h1{
+ font-size:35px;
+}
+.topnav {
+  width: 100%;
+  overflow: auto;
+  background-color: #333;
+}
+
+.topnav a {
+  float:left;
+   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 20%;
+  font-size: 22px;
+}
+.topnav a:hover {
+  background-color: #8c92ed;
+  color: black;
+}
+
+
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+@media screen and (max-width: 500px) {
+  .topnav a, .topnav input[type=text]{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+     padding: 14px;
+     
+  }
+
+

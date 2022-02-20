@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Placement</title>
+<style>
+.topnav {
+  width: 100%;
+  overflow: auto;
+  background-color: #333;
+}
+.contact
+{
+  font-size:28px;
+  text-align:center;
+}
+.topnav a {
+  float:left;
+   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 22%;
+  font-size: 22px;
+}
+.topnav a:hover {
+  background-color: #8c92ed;
+  color: black;
+}
+.header{
+        background-color: #3b403f;
+        color: white;
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+    .title{
+        margin: 0px;
+        font-size: 26px;
+    }
+    .graph
+    {
+        border: 2px grey solid;
+        border-radius: 5px;
+        width: 45%;
+        display:inline-block;
+        height: 300px;
+        margin-left: 8px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .graphs{
+        text-align: center;
+    }
+    .homeIcon{
+        width: 40px;
+        height: 40px;
+        float: left;
+    }
+    .chartImg{
+        width: 60%;
+        height: 100%;
+        
+    }   
+    .chart2{
+        width: 70%;
+        float: left;
+    }
+    .legend{
+        /* border: 2px black solid; */
+        width: 25%;
+        float: right;
+    }
+    .legendColor1{
+        
+        width: 20px;
+        height: 20px;
+        background-color: gold;
+        float: left;
+        margin-right: 10px;
+    
+    }
+    .legendColor2{
+        width: 20px;
+        height: 20px;
+        background-color: #65e7e7;
+        float: left;
+        margin-right: 10px;
+    }
+    .legendText{
+        font-size: 10px;
+    }
+    
+        .legendText2{
+            font-size: 10px;
+
+        }
+        .legendColor3{
+        width: 20px;
+        height: 20px;
+        background-color: #e76c24;
+        float: left;
+        margin-right: 10px;}
+        .legendText3{
+            font-size: 10px;
+
+        }
+    .chartContent{
+        height: 90%;
+      
+    }
+    .chartTitle{
+        margin: 0px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .chart1,.chart2{
+        float: left;
+    }
+    .pieChart1,.pieChart2{
+        margin-top: 30px;
+    }
+    
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+@media screen and (max-width: 500px) {
+  .topnav a, .topnav input[type=text]{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+     padding: 14px;
+     
+  }
+</style>
+</head>
+<body>
+<div class="header">
+    <a href="homePage.html"><img class="homeIcon" src="homeIconWhite.jpg" /></a>
+        <p class="title">BMS College of Engineering</p>
+</div>
+
+<nav>
+    <div class="topnav">
+      <a href="Homepage.html">Home</a>
+      <a href="internships.html">Internships</a>
+      <a href="placements.html">Placements</a>
+      <a href="network.html">Alumini</a>
+      <input type="text" placeholder="Search..">
+</div>
+<div style="padding-left:12px">
+</div>
+
+</nav>
+
+<!-- Graphs -->
+<div class="graphs">
+<div class="graph barChart1">
+    <p class="chartTitle">Placement Statistics</p> 
+    <div class="chartContent">
+    <img class="chartImg chart2" src="1.jpg"></img>
+    <div class="legend">
+        <div class="legendColor1">
+        </div>
+        <p class="legendText">Average Package (in)</p>
+        <br>
+        <div class="legendColor2">
+        </div>
+        <p class="legendText2">No. of students</p>
+    </div>
+</div>
+
+</div>
+<div class="graph barChart2">
+    <p class="chartTitle">Placement Statistics</p>
+    <div class="chartContent">
+    <img class="chartImg chart2" src="2.jpg"></img>
+    <div class="legend">
+        <div class="legendColor3">
+        </div>
+        <p class="legendText3">No. of students</p>
+    </div>
+</div>
+
+
+</div>
+<div class="graph pieChart1">
+    <p class="chartTitle">Internship </p>
+    <div class="chartContent">
+        <img class="chartImg" src="3.jpg"></img>
+    </div>
+       
+</div>
+<div class="graph pieChart2">
+    <p class="chartTitle">Placement </p>
+    <div class="chartContent">
+        <img class="chartImg" src="4.jpg"></img>
+     </div>
+
+</div>
+
+</div>
+<div class="contact"><a href="main.html">Contact Us</a></div>
+</body>
+</html>
